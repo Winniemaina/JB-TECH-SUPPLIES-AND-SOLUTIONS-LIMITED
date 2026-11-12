@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="JB Tech Supplies and Solutions - Phones, computers, electronics and ICT supplies in Nyeri, Kenya.">
+    <title>JB Tech Supplies & Solutions</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- TOP BAR -->
+    <div class="topbar">
+        <div class="container topbar-content">
+            <span>Your trusted technology partner</span>
+            <a href="https://wa.me/254742447454">WhatsApp: 0742447454</a>
+        </div>
+    </div>
+
+    <!-- HEADER -->
+    <header>
+        <div class="container navbar">
+
+            <a href="#home" class="brand">
+                <div class="logo">JB</div>
+                <div>
+                    <h2>JB TECH</h2>
+                    <small>SUPPLIES & SOLUTIONS</small>
+                </div>
+            </a>
+
+            <button class="menu-toggle" id="menuToggle">☰</button>
+
+            <nav id="navLinks">
+                <a href="#home">Home</a>
+                <a href="#products">Products</a>
+                <a href="#services">Services</a>
+                <a href="#about">About Us</a>
+                <a href="#contact">Contact</a>
+                <a href="#contact" class="nav-button">Get a Quote</a>
+            </nav>
+
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="home">
+        <div class="container hero-content">
+
+            <div class="hero-text">
+                <span class="eyebrow">WELCOME TO JB TECH</span>
+
+                <h1>
+                    Technology for<br>
+                    <span>Everyday Life.</span>
+                </h1>
+
+                <p>
+                    Discover phones, laptops, computers, electronics
+                    and accessories. We help you find the right
+                    technology for your home, business and everyday needs.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#products" class="btn">Explore Products →</a>
+
+                    <a href="https://wa.me/254742447454"
+                       class="btn btn-outline">
+                        Contact Us
+                    </a>
+                </div>
+
+                <div class="hero-features">
+                    <span>✓ Electronics</span>
+                    <span>✓ ICT Supplies</span>
+                    <span>✓ Product Sourcing</span>
+                </div>
+            </div>
+
+            <div class="hero-image">
+                <img
+                    src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=1000&q=85"
+                    alt="Laptop computer">
+            </div>
+
+        </div>
+    </section>
+
+    <!-- CATEGORY STRIP -->
+    <section class="categories">
+        <div class="container category-list">
+            <a href="#products" data-category-link="Phones">📱 Phones</a>
+            <a href="#products" data-category-link="Computers">💻 Computers</a>
+            <a href="#products" data-category-link="Accessories">🔌 Accessories</a>
+            <a href="#products" data-category-link="Electronics">📺 Electronics</a>
+            <a href="#products" data-category-link="Networking">🌐 Networking</a>
+        </div>
+    </section>
+
+    <!-- PRODUCTS -->
+    <section class="section" id="products">
+        <div class="container">
+
+            <div class="section-heading">
+                <span class="eyebrow">OUR PRODUCTS</span>
+                <h2>Explore Our Product Range</h2>
+                <p>Find the electronics and technology products you need.</p>
+            </div>
+
+            <div class="product-tools">
+                <input
+                    type="search"
+                    id="productSearch"
+                    placeholder="Search products..."
+                    aria-label="Search products">
+
+                <div class="filters" id="categoryFilters">
+                    <button class="active" data-category="All">All</button>
+                    <button data-category="Phones">Phones</button>
+                    <button data-category="Computers">Computers</button>
+                    <button data-category="Accessories">Accessories</button>
+                    <button data-category="Electronics">Electronics</button>
+                    <button data-category="Networking">Networking</button>
+                </div>
+            </div>
+
+            <div class="product-grid" id="productGrid"></div>
+
+            <p class="availability-note">
+                Product images are for illustration. Please contact us
+                to confirm product models, availability and prices.
+            </p>
+
+        </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="services" id="services">
+        <div class="container">
+
+            <div class="section-heading light">
+                <span class="eyebrow">WHAT WE DO</span>
+                <h2>Our Services</h2>
+                <p>Technology products and practical ICT solutions.</p>
+            </div>
+
+            <div class="service-grid">
+
+                <div class="service-card">
+                    <div class="service-icon">💻</div>
+                    <h3>Electronics Supply</h3>
+                    <p>
+                        Phones, laptops, desktops, printers,
+                        accessories and electronics.
+                    </p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">🌐</div>
+                    <h3>Networking Equipment</h3>
+                    <p>
+                        Routers, switches, network cables
+                        and connectivity equipment.
+                    </p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">⚙️</div>
+                    <h3>ICT Solutions</h3>
+                    <p>
+                        Technology sourcing and equipment
+                        recommendations for homes and businesses.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+        <div class="container about-content">
+
+            <div class="about-image">
+                <img
+                    src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1000&q=85"
+                    alt="Technology and computers">
+            </div>
+
+            <div class="about-text">
+                <span class="eyebrow">ABOUT JB TECH</span>
+
+                <h2>Technology That Works For You.</h2>
+
+                <p>
+                    JB Tech Supplies and Solutions is an electronics
+                    and ICT supply business based in Nyeri, Kenya.
+                </p>
+
+                <p>
+                    We aim to help individuals, businesses,
+                    schools and organisations source reliable
+                    technology products for their needs.
+                </p>
+
+                <p>
+                    From smartphones and laptops to cables,
+                    chargers and office equipment, get in touch
+                    and let us know what you are looking for.
+                </p>
+
+                <a href="#contact" class="btn">Contact Us →</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact">
+        <div class="container contact-content">
+
+            <div class="contact-info">
+                <span class="eyebrow">GET IN TOUCH</span>
+
+                <h2>Let's Talk Technology.</h2>
+
+                <p>
+                    Looking for a particular product?
+                    Contact us for enquiries, quotations
+                    and product sourcing.
+                </p>
+
+                <div class="contact-item">
+                    <strong>📞 Phone / WhatsApp</strong>
+                    <p>0742447454</p>
+                </div>
+
+                <div class="contact-item">
+                    <strong>📍 Location</strong>
+                    <p>Nyeri, Kenya</p>
+                </div>
+            </div>
+
+            <div class="contact-form">
+                <h3>Send an Enquiry</h3>
+
+                <form id="enquiryForm">
+
+                    <label for="customerName">Your Name</label>
+                    <input
+                        type="text"
+                        id="customerName"
+                        placeholder="Enter your name"
+                        required>
+
+                    <label for="customerMessage">Your Message</label>
+                    <textarea
+                        id="customerMessage"
+                        rows="5"
+                        placeholder="What product are you looking for?"
+                        required></textarea>
+
+                    <button type="submit" class="btn">
+                        Send via WhatsApp →
+                    </button>
+
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container footer-content">
+
+            <a href="#home" class="brand footer-brand">
+                <div class="logo">JB</div>
+                <div>
+                    <h2>JB TECH</h2>
+                    <small>SUPPLIES & SOLUTIONS</small>
+                </div>
+            </a>
+
+            <p>Phones | Computers | Electronics | ICT Solutions</p>
+
+            <p>
+                © <span id="year"></span>
+                JB Tech Supplies and Solutions.
+            </p>
+
+        </div>
+    </footer>
+
+    <!-- FLOATING WHATSAPP -->
+    <a
+        href="https://wa.me/254742447454"
+        class="whatsapp-button"
+        target="_blank"
+        rel="noopener"
+        aria-label="Chat with us on WhatsApp">
+        ☎
+    </a>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
